@@ -1,0 +1,37 @@
+#header{
+    width: 100%;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(196, 196, 196);
+  }
+  .navs{
+    width:1200px;
+    height:60px;
+    border-left:1px solid red;
+    border-right:1px solid red;
+    margin: 0 auto;
+  }
+  .ull{margin-left: 130px;}
+  .navs .ull li{
+    list-style: none;
+    float:left;
+    margin: 0 20px;
+    line-height:60px;
+  }
+  .navs .ull li a{
+    text-decoration:none; 
+    color:#000;
+  }
+  .navs .ull li a:hover{
+    color: #1fb6c4;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1fb6c4;
+  }
+  .search input{
+    margin-left:90px;
+    width: 160px;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 14px;
+  }
+  
