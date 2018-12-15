@@ -1,7 +1,4 @@
 *{margin: 0;padding: 0;}
-
-
-/*************** index ********************/
 .f1,.f4{
   background:#d3e9f6;
 }
@@ -17,25 +14,27 @@
   height: 686px;
   margin: 0 auto;
   margin-top: 0px;
-  border:1px solid red
 }
 .xzdmr{
   border:1px solid red;
-  width: 1020px;
+  width: 1040px;
   margin: 0 auto;
   height: 556px;
 }
+.liebiao{width:1040px;height:475px;}
 .blue{
   color: rgb(44, 182, 195);
 }
+.title{width:1020px;}
 .ti1{
   line-height: 96px;
   height: 96px;
   width: 390px;
   text-transform: uppercase;
+  float: left;
 }
 .ti2{
-  margin: 0 35px;
+  
   font-size: 18px;
   height: 26px;
   line-height: 26px;
@@ -57,7 +56,7 @@
   padding-bottom: 3px;
 }
 .ti1,.ti2{
-  float: left;
+  
   margin-left: 11px;
 }
 strong{
@@ -98,7 +97,9 @@ strong{
 }
 .w260{
   width: 260px;
-  float: left;
+  position: relative;
+  top:-571px;
+  left:750px;
 }
 .f1 .w1020 .img li{
   margin-bottom: 20px;
@@ -139,6 +140,7 @@ strong{
 .xz_left .h110 span {
   color: #1fb6c4;
   padding-top: 10px;
+  
 }
 .xz_left a {
   display: block;
@@ -146,14 +148,14 @@ strong{
   color: #333;
   text-decoration: none;
 }
-a{outline: none;}
 .t12{font-size: 12px;}
 .right{float: right;}
 .left{float: left;}
 .xz_list{
-  width: 550px;
-  padding: 0 10px;
+  width: 530px;
+  
   list-style: none;
+  float: right;
 }
 .xz_list li a {
   display: block;
@@ -163,7 +165,8 @@ a{outline: none;}
   text-decoration: none;
 }
 .xz_text {
-  padding: 10px 15px;
+  padding-top: 10px;
+  padding-left: 10px;
   width: 360px;
   float: left;
 }
@@ -183,5 +186,8 @@ a{outline: none;}
 .t14 {
   font-size: 14px;
 }
-
-
+.title{float: left;}
+.hea{
+  width:100%;
+  height: 61px;
+}

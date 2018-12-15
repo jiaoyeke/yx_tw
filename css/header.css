@@ -1,37 +1,69 @@
-#header{
-    width: 100%;
-    height: 60px;
-    background: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(196, 196, 196);
-  }
-  .navs{
-    width:1200px;
-    height:60px;
-    border-left:1px solid red;
-    border-right:1px solid red;
-    margin: 0 auto;
-  }
-  .ull{margin-left: 130px;}
-  .navs .ull li{
-    list-style: none;
-    float:left;
-    margin: 0 20px;
-    line-height:60px;
-  }
-  .navs .ull li a{
-    text-decoration:none; 
-    color:#000;
-  }
-  .navs .ull li a:hover{
-    color: #1fb6c4;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #1fb6c4;
-  }
-  .search input{
-    margin-left:90px;
-    width: 160px;
-    height: 26px;
-    line-height: 26px;
-    margin-top: 14px;
-  }
-  
+.header{
+  width: 100%;
+  height: 60px;
+  background: rgb(255, 255, 255);
+}
+.mheader{
+  width:1200px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: -4px;
+}
+.logo{
+  float: left;
+  margin: 8px 50px 0 0;
+  width: 113px;
+  height: 43px;
+}
+.list{
+  width: 526px;
+  height: 60px;
+  float: left;
+}
+.nav{
+  list-style: none; 
+}
+.nav li{
+  float: left;
+  margin: 0 26px;
+}
+.nav li a{
+  text-decoration: none;
+  color:#000;
+}
+.nav li a:hover{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #1fb6c4;
+  color:#1fb6c4;
+}
+.big{
+  position: relative;
+  top:-3px;
+  left:58px;
+  border: #999 solid 1px;
+  height: 30px;
+  width: 198px;
+  margin-top: 17px;
+}
+.inputs{
+  position: relative;
+  top:9px;
+  left:53px;
+}
+.login{
+  float: right;
+  text-align: right;
+  color: #1fb6c4;
+  line-height: 60px;
+  position: relative;
+  top:-50px;
+}
+.login a{
+  color: #1fb6c4;
+  text-decoration: none;
+}
+.login a:hover{
+  padding-bottom: 2px;
+  border-bottom: 2px solid #1fb6c4;
+}
+ 
