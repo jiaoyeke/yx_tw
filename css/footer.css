@@ -1,11 +1,12 @@
+body{margin: 0px;padding: 0px;}
 .footer{
   width: 100%;
-  height: 372px;
+  height: 375px;
   background: #3c3c3c;
 }
 .min_footer{
   width: 1200px;
-  height: 372px;
+  height: 370px;
   padding: 30px 0 0 0;
   margin: 0 auto;
   /* border: 1px solid red */
@@ -71,3 +72,4 @@
   padding:30px 0px 20px 0px;
   font-size: 12px;
 }
+.hzdws .color{color: #fff;}
