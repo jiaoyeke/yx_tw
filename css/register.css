@@ -17,6 +17,124 @@
   left:50%;
 }
 .size{
-  margin:0px 0px 30px 145px; 
-  
+  margin:0px 0px 30px 145px;
+}
+.zhuce{
+  font-size: 16px;
+  color: #1fb6c4;
+  padding: 0 0 0 8px;
+  margin-bottom: 30px;
+  line-height: 16px;
+  border-left: 5px #1fb6c4 solid;
+}
+.zhuce span{
+  float: right;
+  font-size: 12px;
+}
+.zhuce span a{
+  color: #1fb6c4;
+  text-decoration: none;
+}
+.f1 input{
+    width: 300px;
+    padding: 10px 0 10px 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    color: #999;
+    border-radius: 3px;
+}
+.f1 input:hover{
+  background: #f5f4f4;
+  padding: 10px 0 10px 12px;
+  border: 1px solid #1fb6c4;
+  box-shadow: 0 0 2px #1fb6c4;
+}
+.f2 input{
+  width: 130px;
+  padding: 8px 0 8px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0 10px 9px 0;
+  color: #999;
+  /* float: left; */
+  border-radius: 3px;
+}
+.f2 input:hover{
+  background: #f5f4f4;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #1fb6c4;
+  box-shadow: 0 0 2px #1fb6c4;
+}
+.f3 input{
+  width: 130px;
+  padding: 8px 0 8px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0 10px 9px 0;
+  color: #999;
+  float: left;
+  border-radius: 3px;
+}
+.f3 input:hover{
+  background: #f5f4f4;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #1fb6c4;
+  box-shadow: 0 0 2px #1fb6c4;
+}
+.yanzheng{
+  border-radius: 5px;
+  background: #1fb6c4;
+  color: #FFF;
+  padding: 6px 25px 0px 34px;
+  cursor: pointer;
+  float: right;
+  margin-right: 4px;
+  height: 30px;
+  width: 100px;
+}
+.yanzheng:hover{background: #199eaa;}
+.f4{
+  float: left;
+  font-size:13px;
+}
+.f4 span{
+  position: relative;
+  top:8px;
+}
+.f4 a{text-decoration: none;}
+.f4 input{
+  position: relative;
+  top:10px;
+}
+.f5 input{
+  width: 315px;
+  height: 38px;
+  border-radius: 10px;
+  background: #1fb6c4;
+  margin-top: 30px;
+  cursor: pointer;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+.f6{
+  border-bottom: 1px #CCC solid;
+  height: 1px;
+  position: relative;
+  margin-top: 35px;
+    
+}
+.hezuo{
+  position: absolute;
+  top:-10px;
+  left: 77px;
+  background: #fafafa;
+  width: 140px;
+  height: 20px;
+  font-size: 10px;
+  padding-left: 20px;
+  color: #666;
 }
