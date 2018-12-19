@@ -35,6 +35,10 @@
   color: #1fb6c4;
   text-decoration: none;
 }
+.zhuce span a:hover{
+  color: #199eaa;
+  text-decoration:underline;
+} 
 .f1 input{
     width: 300px;
     padding: 10px 0 10px 12px;
@@ -120,6 +124,7 @@
   font-size: 16px;
   border: none;
 }
+.f5 input:hover{background: #199eaa;}
 .f6{
   border-bottom: 1px #CCC solid;
   height: 1px;
@@ -137,4 +142,24 @@
   font-size: 10px;
   padding-left: 20px;
   color: #666;
+}
+.weixin span{
+  float: left;
+  margin-right: 35px;
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+}
+.weixin{
+  height: 26px;
+  margin: 27px 0px 27px 47px;
+  cursor: pointer;
+}
+.weixin span:hover{
+  color:#1fb6c4
+}
+.weixin img{
+  position: relative;
+  top:7px;
+  left: -5px;
 }
