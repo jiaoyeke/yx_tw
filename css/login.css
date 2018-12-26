@@ -1,0 +1,117 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.login{
+  width:100%;
+  height: 974px;
+  background: url(/img/login_b.jpg);
+}
+.size{
+  position: relative;
+  top:168px;
+  left: 1050px;
+}
+.text{
+  padding: 30px 40px;
+  background: #fafafa;
+  width: 315px;
+  height: 350px;
+  position: relative;
+  top:200px;
+  left:900px
+}
+.denglu{
+  font-size: 16px;
+  color: #1fb6c4;
+  padding: 0 0 0 8px;
+  margin-bottom: 30px;
+  line-height: 16px;
+  border-left: 5px #1fb6c4 solid;
+}
+.denglu span{
+  float: right;
+  font-size: 12px;
+}
+.denglu span a{
+  color: #1fb6c4;
+  text-decoration: none;
+}
+.denglu span a:hover{
+  color: #199eaa;
+  text-decoration:underline;
+} 
+.f1 input{
+  width: 300px;
+  padding: 10px 0 10px 12px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  color: #999;
+  border-radius: 3px;
+}
+.f1 input:hover{
+background: #f5f4f4;
+padding: 10px 0 10px 12px;
+border: 1px solid #1fb6c4;
+box-shadow: 0 0 2px #1fb6c4;
+}
+.f2 a{
+  font-size: 13px;
+  color:#000;
+  text-decoration: none;
+}
+.f2{text-align: right;}
+.f2 a:hover{text-decoration:underline;}
+.f5 input{
+  width: 315px;
+  height: 38px;
+  border-radius: 10px;
+  background: #1fb6c4;
+  margin-top: 18px;
+  cursor: pointer;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+.f5 input:hover{background: #199eaa;}
+.f6{
+  border-bottom: 1px #CCC solid;
+  height: 1px;
+  position: relative;
+  margin-top: 35px;
+    
+}
+.hezuo{
+  position: absolute;
+  top:-10px;
+  left: 77px;
+  background: #fafafa;
+  width: 140px;
+  height: 20px;
+  font-size: 10px;
+  padding-left: 20px;
+  color: #666;
+}
+.weixin span{
+  float: left;
+  margin-right: 35px;
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+}
+.weixin{
+  height: 26px;
+  margin: 27px 0px 27px 47px;
+  cursor: pointer;
+}
+.weixin span:hover{
+  color:#1fb6c4
+}
+.weixin img{
+  position: relative;
+  top:7px;
+  left: -5px;
+}
